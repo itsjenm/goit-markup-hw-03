@@ -32,6 +32,7 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 0 215px 0 215px;
     /* background-color: orchid; */
 }
 
@@ -39,7 +40,6 @@ nav {
     /* background-color: lightcoral; */
     align-items: center;
     display: flex;
-    margin-left: 215px;
 }
 
 .main-nav {
