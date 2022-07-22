@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    background-color: aqua;
+    
+}
+
+body {
+    width: auto;
+    font-family: 'Roboto';
+    color: black;
+    font-size: 14px;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.navbar-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: orchid;
+}
+
+nav {
+    background-color: lightcoral;
+    align-items: center;
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    background-color: yellow;
+}
+
+
+
+.nav-contacts {
+    display: flex;
+    align-items: center;
+    background-color: lime;
+}
+
+
+
+
+.nav-link a {
+    color: black;
+    text-decoration: none;
+    font-weight:500;
+    margin: 53px;
+    
+}
+
+
+.nav-link-selected a {
+    color: #2196F3;
+}
+
+.nav-contacts a {
+    color: #757575;
+}
+
+.navbar-div a:hover,
+.navbar-div a:focus {
+    color: #2196F3;
+}
+
+
+#WebStudio {
+    font-family: 'Raleway';
+    font-size:26px;
+    color: black;
+    text-decoration: none;
+} 
+
+#WebStudio::before {
+    content: 'Web'; color: #2196F3;
+}
+
+#main-hero {
+    background-color: #2F303A;
+}
+
+
+.hero .hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.request-button {
+    background-color: #2196F3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.request-button:hover,
+.request-button:focus {
+    background-color: #188CE8;
+    
+}
+
+.benefits {
+    display: none;
+}
+
+
+#our-benefits .title {
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    
+    background-color: #FFFFFF;
+}
+
+#our-benefits .details {
+    font-weight: 400;
+    
+}
+
+
+#what-we-do .section-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    color: #757575;
+}
+
+#our-team {
+    background-color: #F5F4FA;
+}
+
+#our-team .section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+ 
+
+.container .name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .position {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-filter { 
+    background-color: #F5F4FA;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button-filter-selected {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer #WebStudio {
+    color: #FFFFFF;
+}
+
+.footer .footer-contacts {
+    color: #757575;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+
+.footer .footer-contacts:hover,
+.footer .footer-contacts:focus {
+    color: rgba(255, 255, 255, 1);;
+}
