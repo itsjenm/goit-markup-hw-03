@@ -19,7 +19,9 @@ body {
 
 }
 
-.section {
+#our-benefits,
+#what-we-do,
+#our-team {
     padding: 94px 0 94px 0;
 }
 
@@ -144,15 +146,13 @@ nav {
 .container {
     max-width: 1200px;
     margin-left: 215px;
-    
+    background-color: aqua;
+    align-items: center;
 }
 
 #our-benefits {
-    margin-top: 94px;
-    margin-bottom: 100px;
     display: flex;
-    
-    
+
 }
 
 .set {
@@ -183,6 +183,7 @@ nav {
 
 
 .section-title {
+    margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
 }
@@ -193,6 +194,7 @@ p {
 }
 
 #our-team {
+    height: 648px;
     background-color: #F5F4FA;
 }
 
@@ -203,7 +205,7 @@ p {
 }
  
 
-/* .container .name {
+.container .name {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -213,7 +215,7 @@ p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-} */
+} 
 
 .button-filter { 
     background-color: #F5F4FA;
