@@ -155,6 +155,32 @@ nav {
 }
 
 
+.hero-filter {
+    margin-top: 94px;
+    display: flex;
+    justify-content: center;
+}
+
+.case-studies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 94px;
+    margin-top: 50px;
+    /* background-color: red; */
+    
+}
+
+#work-examples li {
+    margin: 30px;
+    width: 370px;
+    height: 404px;
+    background-color: #EEEEEE;
+}
+
+.project, 
+.type {
+    margin-left: 24px;
+}
 
 #our-benefits {
     display: flex;
@@ -164,6 +190,11 @@ nav {
 .set {
     display: flex;
     justify-content: space-between;
+}
+
+.content-set {
+    display: grid;
+    
 }
 
 
@@ -236,13 +267,15 @@ p {
 } 
 
 .button-filter { 
+    width: 103px;
+    margin-right: 10px;
     background-color: #F5F4FA;
     height: 38px;
     font-size: 16px;
     font-weight: 500;
     border: none;
     border-radius: 4px;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
 }
 
