@@ -16,35 +16,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 
+      <!-- Modern normalize -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
+
+
   </head>
   <body>
     <header>
-      <div class="navbar-div">
+      <div class="container header-container">
         <nav>
-          <a href="index.html" id="WebStudio">Studio</a>
-          <ul class="main-nav">
-            <li class="nav-link nav-link-selected"><a href="index.html" id="studio">Studio</a></li>
-            <li class="nav-link "><a href="portfolio.html" id="portfolio">Portfolio</a></li>
-            <li class="nav-link"><a href="contacts.html" id="contacts">Contacts</a></li>
+          <a href="index.html" class="WebStudio">Studio</a>
+          <ul class="main-nav list">
+            <li class="nav-item"><a href="index.html" class="nav-link current" >Studio</a></li>
+            <li class="nav-item"><a href="portfolio.html" class="nav-link" >Portfolio</a></li>
+            <li class="nav-item"><a href="contacts.html" class="nav-link" >Contacts</a></li>
           </ul>
         </nav>
-          <ul class="nav-contacts">
-            <li class="nav-link"><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
-            <li class="nav-link"><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+          <ul class="nav-contacts list">
+            <li class="nav-contacts-item"><a href="mailto:info@devstudio.com" class="nav-link nav-contacts mailto">info@devstudio.com</a></li>
+            <li class="nav-contacts-item"><a href="tel:+380961111111" class="nav-link nav-contacts tel">+38 096 111 11 11</a></li>
           </ul>
       </div>
     </header>
     <main>
       <section id="main-hero">
-        <div class="hero">
-          <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <div class="container hero-container">
+          <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
           <button type="button" class="request-button">Request our service</button>
         </div>
       </section>
-      <section id="our-benefits">
+      <section id="main-content">
         <div class="container">
-          <h2 class="benefits">Our Benefits</h2>
-          <ul class="set">
+          <h2 class="benefits-title">Our Benefits</h2>
+          <ul class="benefits list">
             <li>
               <h3 class="title">ATTENTION TO DETAILS</h3>
               <p class="details">
@@ -76,10 +80,10 @@
           </ul>
         </div>
       </section>
-      <section id="what-we-do">
+      <section id="main-content what-we-do">
         <div class="container">
           <h2 class="section-title">What we do</h2>
-          <ul class="set">
+          <ul class="what-we-do list">
             <li>
               <img src="images/coding.jpg" alt="coding on tablet" width="370" />
             </li>
@@ -100,56 +104,56 @@
           </ul>
         </div>
       </section>
-      <section id="our-team">
+      <section id="main-content" class="our-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
-          <ul class="set">
+          <ul class="team list">
             <li>
               <img
                 src="images/Product-designer.jpg"
-                alt="Photo of Product Designer"
+                alt="Photo of Product Designer" class="team-image"
                 width="270"/>
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p class="position">Product Designer</p>
+              <h3 class="team-name">Игорь Демьяненко</h3>
+              <p class="team-position">Product Designer</p>
             </li>
             <li>
               <img
                 src="images/Frontend-developer.jpg"
-                alt="Photo of Frontend Developer"
+                alt="Photo of Frontend Developer" class="team-image"
                 width="270"/>
-              <h3 class="name">Ольга Репина</h3>
-              <p class="position">Frontend Developer</p>
+              <h3 class="team-name">Ольга Репина</h3>
+              <p class="team-position">Frontend Developer</p>
             </li>
             <li>
               <img
                 src="images/Marketing.jpg"
-                alt="Photo of Marketer"
+                alt="Photo of Marketer" class="team-image"
                 width="270"/>
-              <h3 class="name">Николай Тарасов</h3>
-              <p class="position">Marketing</p>
+              <h3 class="team-name">Николай Тарасов</h3>
+              <p class="team-position">Marketing</p>
             </li>
             <li>
               <img
                 src="images/UI-designer.jpg"
-                alt="Photo of UI Designer"
+                alt="Photo of UI Designer" class="team-image"
                 width="270"/>
-              <h3 class="name">Михаил Ермаков</h3>
-              <p class="position">UI Designer</p>
+              <h3 class="team-name">Михаил Ермаков</h3>
+              <p class="team-position">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer>
-      <div class="footer">
-        <a href="index.html" id="WebStudio">Studio</a>
+      <div class="container">
+        <a href="index.html" class="WebStudio">Studio</a>
         <address>
-          <ul class="contacts">
+          <ul class="contacts list">
             <li>
-              <a href="#" class="footer-contacts">695 Park Ave, New York, NY 10065, United States</a>
+              <a href="#" class="footer-contacts link">695 Park Ave, New York, NY 10065, United States</a>
             </li>
-            <li><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a></li>
-            <li><a href="tel:212-772-4150" class="footer-contacts">+1 212-772-4150</a></li>
+            <li><a href="mailto:info@example.com" class="footer-contacts link">info@example.com</a></li>
+            <li><a href="tel:212-772-4150" class="footer-contacts link">+1 212-772-4150</a></li>
           </ul>
         </address>
       </div>
