@@ -43,6 +43,7 @@ header {
     /* use padding instead of width or height */
     padding: 25px 0 25px 0;
     display: flex;
+    border-bottom: 1px solid #ECECEC;
     /* background-color: aqua; */
     
 }
@@ -174,14 +175,12 @@ nav {
 
 
 .hero-filter {
-    margin: 0;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
 .projects {
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
@@ -194,11 +193,13 @@ nav {
     padding: 94px 0;
 }
 
-#work-examples li {
+.hero-filter-item {
     margin-right: 10px;
-    background-color: #FFFFFF;
 }
 
+.hero-filter-item:not(:last-child) {
+    margin-right: 10px;
+}
 
 .project-name,
 .project-type {
@@ -268,7 +269,6 @@ p {
 }
 
 .our-team {
-    height: 648px;
     background-color: #F5F4FA;
     display: grid;
 }
@@ -285,7 +285,7 @@ p {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .team-image {
@@ -353,6 +353,9 @@ footer .WebStudio {
     color: #757575;
 }
 
+.footer-contact-item {
+    margin-bottom: 5px;
+}
 
 .footer-contacts:hover,
 .footer-contacts:focus {
