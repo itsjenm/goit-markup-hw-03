@@ -336,11 +336,9 @@ p {
     color: #FFFFFF;
 }
 
-
-footer .container {
-    background-color: #2F303A;
+footer {
     padding: 60px 0;
-   
+    background-color: #2F303A;
 }
 
    
