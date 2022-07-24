@@ -193,18 +193,14 @@ nav {
     padding: 94px 0;
 }
 
-.hero-filter-item {
-    margin-right: 10px;
-}
 
 .hero-filter-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.project-name,
-.project-type {
+.project-name {
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .projects-item {
@@ -353,7 +349,8 @@ footer .WebStudio {
     color: #757575;
 }
 
-.footer-contact-item {
+
+.footer-contact-item:not(:last-child) {
     margin-bottom: 5px;
 }
 
